@@ -20,4 +20,6 @@ router.post("/login", async (req, res) => {
   res.json({ token });
 });
 
+router.use(jwt({ secret: process.env.JWT_SECRET }));
+
 module.exports = router;
