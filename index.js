@@ -1,8 +1,8 @@
 const express = require("express");
+const jwt = require("express-jwt");
 const app = express();
-const usersRouter = require("./routes/users");
-const categoriesRouter = require("./routes/categories");
-const jwt = require("jsonwebtoken");
+const usersRouter = require("c:/Users/Familia Superman/Desktop/Fullstack Diplomado/Modulo 4/Examen Node/routes/users");
+const categoriesRouter = require("c:/Users/Familia Superman/Desktop/Fullstack Diplomado/Modulo 4/Examen Node/routes/categories");
 
 // Configuración de la base de datos
 const mongoose = require("mongoose");
